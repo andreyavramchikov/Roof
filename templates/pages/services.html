@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block main %}
+    <div id="services" class="container-fluid base-font">
+        <div class="main-text">
+            <p class="xxl-text">SERVICES</p>
+            <p class="m-text">A Lasting Impact</p> <br>
+            <p>
+                Solution Contractor Inc is your one-stop-shop for all your remodeling and repair needs.
+                Whether you’re looking for a few helpful tips or need a larger group to take on a scale
+                project — we’re your go-to source ready to handle it all.
+                Browse through the list of our services below, and get in touch for an estimate today.
+            </p>
+        </div>
+
+        <div class="container-fluid type-of-services">
+            <div id="roof-replacement" class="row">
+                <div class="col-lg-6"><img src="{% static 'img/roof_replacement.jpg' %}" /></div>
+                <div class="description col-lg-6">
+                    <p class="m-text">Efficient. Reliable. Exceptional Service.</p>
+                    <p class="l-text">ROOF REPLACEMENT </p>
+                    <p>
+                        At Solution Contractor Inc, our clients are our number one priority and we go the extra mile making
+                        sure they’re completely satisfied with our work. Have a particular project that requires
+                        professional attention? We’re ready to tackle even the most complex custom projects. Call us today
+                        and find out what we can do for you.
+                    </p>
+                </div>
+            </div>
+            <div id="roof-constraction" class="row">
+                <div class="col-lg-6"><img src="{% static 'img/new_roof.jpg' %}" /></div>
+                <div class="description col-lg-6">
+                    <p class="m-text">Customized to Your Preferences </p>
+                    <p class="l-text">NEW ROOF CONSTRUCTION </p>
+                    <p>
+                        At Solution Contractor Inc, our clients are our number one priority and we go the extra mile making
+                        sure they’re completely satisfied with our work. Have a particular project that requires
+                        professional attention? We’re ready to tackle even the most complex custom projects. Call us today
+                        and find out what we can do for you.
+                    </p>
+                </div>
+            </div>
+            <div id="roof-leak"class="row">
+                <div class="col-lg-6"><img src="{% static 'img/leak_roof.jpg' %}" /></div>
+                <div class="description col-lg-6">
+                    <p class="m-text"> It’s All in the Details </p>
+
+                    <p class="l-text">LEAK AND REPAIR SERVICES </p>
+                    <p>
+                    At Solution Contractor Inc, our clients are our number one priority and we go the extra mile making
+                    sure they’re completely satisfied with our work. Have a particular project that requires
+                    professional attention? We’re ready to tackle even the most complex custom projects. Call us today
+                    and find out what we can do for you.
+                    </p>
+                </div>
+            </div>
+            <div id="roof-inspection" class="row" >
+                <div class="col-lg-6"><img src="{% static 'img/roof_inspection.png' %}" /></div>
+                <div class="description col-lg-6">
+                    <p class="m-text">It’s All in the Details</p>
+
+                    <p class="l-text">ROOF INSPECTION </p>
+
+                    <p>
+                        At Solution Contractor Inc, our clients are our number one priority and we go the extra mile making
+                        sure they’re completely satisfied with our work. Have a particular project that requires
+                        professional attention? We’re ready to tackle even the most complex custom projects. Call us today
+                        and find out what we can do for you.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="red-block">
+            <p class="m-text">A Lasting Impact </p>
+            <p class="xl-text">WHAT WE USE </p>
+        </div>
+
+        <div class="what-we-use">
+            <div class="row">
+                <div class="col-lg-6 description">
+                    <p class="l-text">SHINGLETS</p>
+                    <p>
+                        At MichaelG, our clients are our number one priority and we go the extra.
+                        At MichaelG, our clients
+                        are our number one priority and we go the extra.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{% static 'img/shinglets.jpg' %}"  class="left"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 description">
+                    <p class="l-text">METAL ROOFING</p>
+                    <p>
+                        At MichaelG, our clients are our number one priority and we go the extra.
+                        At MichaelG, our clients
+                        are our number one priority and we go the extra.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{% static 'img/metal_roofing.jpg'%}"  class=""/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 description">
+                    <p class="l-text">CEDAR SHAKES</p>
+                    <p>
+                        At MichaelG, our clients are our number one priority and we go the extra.
+                        At MichaelG, our clients
+                        are our number one priority and we go the extra.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{% static 'img/cedar_shakes.jpg' %}"  class="left"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 description">
+                    <p class="l-text">SLATE</p>
+                    <p>
+                        At MichaelG, our clients are our number one priority and we go the extra.
+                        At MichaelG, our clients
+                        are our number one priority and we go the extra.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{% static 'img/slate.jpg' %}"  class=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

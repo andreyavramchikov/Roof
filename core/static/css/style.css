@@ -1,0 +1,473 @@
+p, h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+.left {
+    float: left;
+}
+
+.xxl-text {
+    font-size: 60px;
+}
+
+.xl-text {
+    font-size: 45px;
+}
+
+.l-text {
+    font-size: 30px;
+}
+
+.m-text {
+    font-size: 20px;
+}
+
+
+
+
+
+body {
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.right {
+    float: right;
+}
+
+::-webkit-input-placeholder {color:rgba(85,108,176,1);}
+::-moz-placeholder          {color:rgba(85,108,176,1);}/* Firefox 19+ */
+:-moz-placeholder           {color:rgba(85,108,176,1);}/* Firefox 18- */
+:-ms-input-placeholder      {color:rgba(85,108,176,1);}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+.base-font {
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.border {
+    border: 1px solid purple;
+}
+
+header {
+    height: 180px;
+}
+
+header .row {
+    height: 120px;
+}
+
+header div {
+    padding: 0 ;
+}
+
+header img {
+    height: 90px;
+    padding: 10px;
+    margin: 15px;
+}
+
+header .slogan {
+    color: rgba(244,67,69,1);
+    line-height: 30px;
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: normal;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.vertically-align-div-with-text-inside-div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+header .slogan p {
+    text-transform: uppercase;
+}
+
+
+header .navigation {
+    height: 60px;
+    background-color: rgb(244, 67, 69);
+}
+
+header .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .contacts {
+    color: rgba(244,67,69,1)
+}
+
+header .navigation ul li {
+    display: inline;
+    float: left;
+}
+
+header .navigation ul a {
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 60px;
+    font-size: 16px;
+}
+
+footer {
+    height: 160px;
+    background-color: rgba(244,67,69,1);
+    text-align:center;
+    color: white;
+}
+
+footer .contacts {
+    color: white;
+    height: 120px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer .createdby {
+    height: 40px;
+}
+
+
+.contact-us {
+    color: rgba(85,108,176,1);
+}
+
+.contact-us .contact-info {
+    padding: 0 0 2% 10%;
+}
+
+.contact-us .contact-info h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.contact-us form {
+    padding: 0 5% 0 0;
+}
+
+.contact-us form input {
+    color: rgba(85,108,176,1);
+    height: 40px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgba(85,108,176,1);
+    width: 100%;
+    outline: none;
+}
+
+#request-estimate form input, #request-estimate form textarea {
+    color: rgba(85,108,176,1);
+    height: 40px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid rgba(85,108,176,1);
+    width: 100%;
+    outline: none;
+}
+
+.contact-us form input[name='message'] {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.contact-us form input[name='name']{
+    width: 45%;
+    float: left;
+}
+
+.contact-us form input[name='email'] {
+    width: 45%;
+    float: right;
+}
+
+.contact-us form input[type='submit'], #request-estimate form input[type='submit'] {
+    background-color: rgb(85, 108, 176);;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+}
+
+#services {
+    padding:0;
+    margin:0;
+}
+
+#services .row {
+    margin: 20px 0;
+}
+
+#services .main-text {
+    padding: 5% 10%;
+    color: white;
+    height: 360px;
+    background-color: rgb(85, 108, 176);
+}
+
+#services .type-of-services {
+    color: rgb(85, 108, 176);
+}
+
+#services .type-of-services img {
+    background-size: auto;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#services .red-block {
+    background-color: rgba(244,67,69,1);
+    height: 200px;
+    color: white;
+    margin: 20px 0;
+    font-size: 25px;
+    padding: 2% 20%;
+}
+
+#services .what-we-use {
+    color: rgb(85, 108, 176);
+    text-align: center;
+}
+
+#services .what-we-use .row {
+    margin-top: 100px;
+}
+
+#services .what-we-use .description {
+    padding: 20px 50px;
+}
+
+#projects {
+    margin:0; padding:0;
+}
+
+#projects .blue {
+    padding:0;
+    margin: 0;
+    height: 450px;
+    color: white;
+    background-color: rgb(85, 108, 176);
+}
+
+#projects .white {
+    height: 450px;
+    margin: 0;
+    padding:0;
+    color: rgb(85, 108, 176);
+}
+
+#projects .inline-projects  {
+    width: 90%;
+    /* padding: 2% 10%; */
+    margin: 5% 5%;
+}
+
+#projects .inline-projects img {
+    background-size: auto;
+    width: 100%;
+}
+
+#projects .inline-projects div {
+    text-align: center;
+}
+
+#about-us {
+    margin: 0;
+    padding: 0;
+}
+
+#about-us .blue {
+    padding: 50px 15%;
+    height: 500px;
+    color: white;
+    background-color: rgb(85, 108, 176);
+    text-align: center;
+}
+
+#about-us .blue p:first-child {
+    font-size: 60px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#about-us .blue p:nth-child(2) {
+    font-size: 20px;
+    line-height:100px;
+    height: 100px;
+}
+
+#about-us .blue p:nth-child(3), #about-us .blue p:nth-child(4) {
+    font-size: 16px;
+    height: 100px;
+}
+
+#about-us .feedbacks {
+    width: 100%;
+    background-color: white;
+    color: rgb(85, 108, 176);
+}
+
+#about-us .feedbacks .feedback {
+    padding: 0;
+}
+
+#about-us .feedbacks .feedback .row {
+    margin: 150px 0;
+}
+
+#about-us .feedbacks p {
+    /*line-height: 80px;*/
+    text-align: center;
+}
+
+#about-us .feedbacks .feedback img {
+    background-size: auto;
+    width:10%;
+    margin: 0 auto;
+    display: block;
+}
+
+#about-us .feedbacks .feedback-message {
+    padding: 50px 25%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#index {
+    margin: 0; padding:0;
+    color: white;
+}
+
+#index .row {
+    margin:0;
+}
+#index img.home-roof {
+    background-size: auto;
+    width:100%;
+    position: relative;
+}
+
+#index .welcome {
+    text-align: center;
+    padding: 0 10%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#index .welcome p:first-child {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 95px;
+}
+
+#index .welcome button {
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    color: rgb(85, 108, 176);
+    border: none;
+    background-color: white;
+}
+
+#index .what-we-do {
+    height: 600px;
+    background-color: white;
+}
+
+#index .what-we-do div p{
+    height: 200px;
+    line-height: 200px;
+    color: rgb(85, 108, 176);
+    font-size: 48px;
+    text-align: center;
+}
+
+#index .examples {
+    padding: 20px 5%;
+    color: rgb(85, 108, 176);
+    text-align: center;
+    font-size: 20px;
+}
+
+#index .examples img {
+    background-size: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#index .what-we-use {
+    position: relative;
+    height: 600px;
+    background-color: rgb(85, 108, 176);
+    text-align: center;
+}
+
+#index .what-we-use .row p {
+    font-size: 60px;
+    height: 200px;
+    line-height: 200px;
+}
+
+#index .what-we-use .examples {
+    height: 400px;
+    padding: 20px 5%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#index .what-we-use .examples img {
+    background-size: auto;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#request-estimate {
+    padding: 20px 25%;
+}
+
+#request-estimate form {
+    padding: 0 20px;
+}
+
+#request-estimate form p {
+    text-align: center;
+    color: rgb(85, 108, 176);
+}
+
+#request-estimate form textarea{
+    height: 100px;
+}

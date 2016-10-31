@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div id="request-estimate" class="container-fluid base-font">
+
+        <form name="estimateForm" class="base-font">
+            <p class="l-text">Request Free Estimate</p>
+            <input name="phone" placeholder="Your phone number"/>
+            <input name="email" placeholder="Your email"/>
+            <input name="address" placeholder="Address"/>
+            <textarea name="message" placeholder="Message"></textarea>
+{#            <input name="message" placeholder="Message" />#}
+            <input type="submit" name="submit" value="Send request for free estimate" />
+        </form>
+    </div>
+{% endblock %}

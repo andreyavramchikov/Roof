@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<header class="container-fluid">
+    <div class="row">
+        <div class="logo col-lg-3">
+            <img src="{% static 'img/roof_logo.png' %}"/>
+        </div>
+        <div class="slogan col-lg-5 vertically-align-div-with-text-inside-div">
+            SOLUTION CONTRACTOR INC <br>
+            Helping You Build the Home of Your Dreams
+        </div>
+        <div class="contacts col-lg-4 vertically-align-div-with-text-inside-div base-font">
+            solutioncontractor3@gmail.com <br>
+            (856) 725 7646
+        </div>
+    </div>
+
+    <div class="row navigation">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-9">
+            <ul class="base-font">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About Us</a></li>
+                <li><a href="{% url 'services' %}">Services</a></li>
+                <li><a href="{% url 'projects' %}">Project Gallery</a></li>
+                <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                <li><a href="{% url 'request_estimate' %}">Request Estimate</a></li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+
+

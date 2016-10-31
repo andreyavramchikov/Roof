@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block main %}
+    <div id="index" class="container-fluid base-font">
+        <div class="row" style="position:relative">
+            <img src="{% static 'img/home_roof.jpeg' %}" class="home-roof"/>
+            <div class="welcome">
+                <p>
+                    WELCOME TO
+                    SOLUTION
+                    CONTRACTOR INC
+                </p>
+                <p>Looking for a licensed contractor to tackle a large-scale
+                    remodeling project? Or do you have a small
+                    task you need help with? Solution Contractor Inc is one of the best Roofing Contractors New Jersey.
+                </p>
+                <a href="{% url 'request_estimate' %}">
+                    <button> Request Estimate</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="row what-we-do">
+            <div class="row">
+                <p>WHAT WE DO</p>
+            </div>
+            <div class="row examples">
+                <a href="{% url 'services' %}#roof-replacement">
+                    <div class="col-lg-3">
+                        <img src="{% static 'img/roof_inspection_circle.png' %}"/>
+                        ROOF <br> REPLACEMENT
+                    </div>
+                </a>
+
+                <a href="{% url 'services' %}#roof-constraction">
+                    <div class="col-lg-3">
+                        <img src="{% static 'img/new_roof_cirlce.jpg' %}"/>
+                        NEW ROOF <br> CONSTRUCTION
+                    </div>
+                </a>
+                <a href="{% url 'services' %}#roof-leak">
+                    <div class="col-lg-3">
+                        <img src="{% static 'img/leak_roof_circle.jpg' %}"/>
+                        LEAK AND REPAIR <br> SERVICES
+                    </div>
+                </a>
+                <a href="{% url 'services' %}#roof-inspection">
+                    <div class="col-lg-3">
+                        <img src="{% static 'img/roof_inspection_circle.png' %}" class="right"/>
+                        ROOF INSPECTION
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row what-we-use border base-font">
+            <div class="row">
+                <p>WHAT WE USE</p>
+            </div>
+            <div class="row examples">
+                <div class="col-lg-3">
+                    <img src="{% static 'img/shinglets.jpg' %}"/>
+                    SHINGLETS
+                </div>
+                <div class="col-lg-3">
+                    <img src="{% static 'img/metal_roofing.jpg' %}"/>
+                    METAL ROOFING
+                </div>
+                <div class="col-lg-3">
+                    <img src="{% static 'img/cedar_shakes.jpg' %}"/>
+                    CEDAR SHAKES
+                </div>
+                <div class="col-lg-3">
+                    <img src="{% static 'img/slate.jpg' %}" class="right"/>
+                    SLATE
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

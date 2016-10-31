@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div id="contact-us" class="container-fluid contact-us base-font">
+        <div class="col-lg-6 contact-info">
+            <h1>Contact</h1>
+            Thinking about taking that next big step to fulfill your <br>
+            remodeling needs? Get in touch today and allow <br>
+            licensed experts to get the job done the right way.
+            <br> <br>
+            214 Foxboro drive <br> <br>
+            (856) 725 7646 <br> <br>
+            solutioncontractor3@gmail.com  <br>
+        </div>
+        <div class="col-lg-6 contact-form">
+            <form name="contactForm" class="base-font">
+                <input name="name" placeholder="Name"/>
+                <input name="email" placeholder="Email"/>
+                <input name="subject" placeholder="Subject" />
+                <input name="phone" placeholder="Phone"/>
+                <input name="address" placeholder="Name"/>
+                <input name="message" placeholder="Message" />
+                <input type="submit" name="submit" value="Send" />
+            </form>
+        </div>
+    </div>
+{% endblock %}

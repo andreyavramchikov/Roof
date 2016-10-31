@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block main %}
+    <div id="projects" class="container-fluid base-font">
+        <div class="blue">
+            <div class="inline-projects col-lg-12">
+                <div class="col-lg-4">
+                    <img src="{% static 'img/project_1.jpg' %}" />
+                    APARTMENT <br> COMPLEX
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'img/project_1.jpg' %}" />
+                    APARTMENT <br> COMPLEX
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'img/project_1.jpg' %}" class="right" />
+                    APARTMENT <br> COMPLEX
+                </div>
+            </div>
+        </div>
+
+        <div class="white">
+            <div class="inline-projects col-lg-12">
+                <div class="col-lg-4">
+                    <img src="{% static 'img/project_1.jpg' %}" />
+                    APARTMENT <br> COMPLEX
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'img/project_1.jpg' %}" />
+                    APARTMENT <br> COMPLEX
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'img/project_1.jpg' %}" class="right" />
+                    APARTMENT <br> COMPLEX
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock %}
