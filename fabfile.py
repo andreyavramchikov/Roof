@@ -14,7 +14,7 @@ env.path = '/home/ubuntu/projects/%(project_name)s' % env
 env.env_path = '%(path)s/env' % env
 env.repo_path = '%(path)s/repository' % env
 
-# ssh -i ~/Roof.pem ubuntu@http://ec2-54-196-135-100.compute-1.amazonaws.com
+# ssh -i ~/Roof.pem ubuntu@ec2-54-196-135-100.compute-1.amazonaws.com
 
 
 def setup():
