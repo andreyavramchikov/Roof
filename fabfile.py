@@ -3,18 +3,18 @@ from fabric.operations import sudo
 
 env.user = 'ubuntu'
 env.hosts = [
-    'ec2-52-201-228-26.compute-1.amazonaws.com'
+    'ec2-54-196-135-100.compute-1.amazonaws.com'
 ]
 
 
-env.key_filename = '/home/andrey/roof.pem'
+env.key_filename = '/home/andrey/Roof.pem'
 
-env.project_name = 'roof'
+env.project_name = 'Roof'
 env.path = '/home/ubuntu/projects/%(project_name)s' % env
 env.env_path = '%(path)s/env' % env
 env.repo_path = '%(path)s/repository' % env
 
-# ssh -i ~/roof.pem ubuntu@http://ec2-52-207-246-132.compute-1.amazonaws.com
+# ssh -i ~/Roof.pem ubuntu@http://ec2-54-196-135-100.compute-1.amazonaws.com
 
 
 def setup():
@@ -24,12 +24,11 @@ def setup():
     sudo('apt-get -y install python-dev')
     sudo('apt-get -y install python-virtualenv')
     sudo('apt-get -y install libmysqlclient-dev')
-    sudo('pip install virtualenvwrapper')  # must update .bashrc still manually
+    # sudo('pip install virtualenvwrapper')  # must update .bashrc still manually
     sudo('apt-get install -y mysql-server')
     create_database('roof')
     sudo('apt-get install -y git')
     sudo('apt-get install -y nginx')
-    sudo('apt-get install -y supervisor')
 
 
 def create_database(name):
@@ -49,7 +48,7 @@ def deploy():
     clone_repo()
     install_requirements()
     sudo(
-        'ln -s /home/ubuntu/projects/Playtogether/repository/mysite_nginx.conf /etc/nginx/sites-enabled/')
+        'ln -s /home/ubuntu/projects/Roof/repository/mysite_nginx.conf /etc/nginx/sites-enabled/')
     sudo('/etc/init.d/nginx restart')
     # run(
     #     'cp -r /home/ubuntu/projects/Playtogether/repository/event/static/ /home/ubuntu/projects/Playtogether/repository/')
