@@ -1,0 +1,17 @@
+footer {
+    height: 160px;
+    background-color: rgba(244,67,69,1);
+    text-align:center;
+    color: white;
+}
+
+footer .contacts {
+    color: white;
+    height: 120px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer .createdby {
+    height: 40px;
+}

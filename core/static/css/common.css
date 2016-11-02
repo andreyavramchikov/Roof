@@ -1,0 +1,130 @@
+p, h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+.left {
+    float: left;
+}
+
+.xxl-text {
+    font-size: 30px;
+}
+
+.xl-text {
+    font-size: 25px;
+}
+
+.l-text {
+    font-size: 20px;
+}
+
+.m-text {
+    font-size: 12px;
+}
+
+body {
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.right {
+    float: right;
+}
+
+::-webkit-input-placeholder {color:rgba(85,108,176,1);}
+::-moz-placeholder          {color:rgba(85,108,176,1);}/* Firefox 19+ */
+:-moz-placeholder           {color:rgba(85,108,176,1);}/* Firefox 18- */
+:-ms-input-placeholder      {color:rgba(85,108,176,1);}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+.base-font {
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.border {
+    border: 1px solid purple;
+}
+
+
+.vertically-align-div-with-text-inside-div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 767px) {
+    .xs-hide {
+        display: none !important;
+    }
+}
+
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .md-hide {
+        display: none !important;
+    }
+
+    .xxl-text {
+        font-size: 40px;
+    }
+
+    .xl-text {
+        font-size: 30px;
+    }
+
+    .l-text {
+        font-size: 20px;
+    }
+
+    .m-text {
+        font-size: 15px;
+    }
+
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) {
+    .lg-hide {
+        display: none !important;
+    }
+
+    .xxl-text {
+        font-size: 60px;
+    }
+
+    .xl-text {
+        font-size: 45px;
+    }
+
+    .l-text {
+        font-size: 30px;
+    }
+
+    .m-text {
+        font-size: 20px;
+    }
+}
+
+
+
+

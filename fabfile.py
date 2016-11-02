@@ -3,7 +3,7 @@ from fabric.operations import sudo
 
 env.user = 'ubuntu'
 env.hosts = [
-    'ec2-54-237-251-218.compute-1.amazonaws.com'
+    'ec2-107-21-86-218.compute-1.amazonaws.com'
 ]
 
 
@@ -14,7 +14,7 @@ env.path = '/home/ubuntu/projects/%(project_name)s' % env
 env.env_path = '%(path)s/env' % env
 env.repo_path = '%(path)s/repository' % env
 
-# ssh -i ~/Roof.pem ubuntu@ec2-54-237-251-218.compute-1.amazonaws.com
+# ssh -i ~/Roof.pem ubuntu@ec2-107-21-86-218.compute-1.amazonaws.com
 
 
 def setup():
@@ -29,6 +29,8 @@ def setup():
     create_database('roof')
     sudo('apt-get install -y git')
     sudo('apt-get install -y nginx')
+    sudo('apt-get install -y build-essential python')
+    sudo('apt-get install -y python-dev')
 
 
 def create_database(name):

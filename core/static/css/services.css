@@ -1,0 +1,63 @@
+#services {
+    padding:0;
+    margin:0;
+}
+
+#services .row {
+    margin: 20px 0;
+}
+
+#services .main-text {
+    padding: 5% 10%;
+    color: white;
+    height: 360px;
+    background-color: rgb(85, 108, 176);
+}
+
+#services .type-of-services {
+    color: rgb(85, 108, 176);
+}
+
+#services .type-of-services img {
+    background-size: auto;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#services .red-block {
+    background-color: rgba(244,67,69,1);
+    height: 200px;
+    color: white;
+    margin: 20px 0;
+    font-size: 25px;
+    padding: 2% 20%;
+}
+
+#services .what-we-use {
+    color: rgb(85, 108, 176);
+    text-align: center;
+}
+
+#services .what-we-use .row {
+    margin-top: 100px;
+}
+
+#services .what-we-use .description {
+    padding: 20px 50px;
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #services .type-of-services img {
+        height: 200px;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 1025px) {
+    #services .type-of-services img {
+        height: 300px;
+    }
+}

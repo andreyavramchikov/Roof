@@ -1,0 +1,80 @@
+header {
+    height: 180px;
+}
+
+header .row {
+    height: 120px;
+}
+
+header div {
+    padding: 0 ;
+}
+
+header img {
+    height: 90px;
+    padding: 10px;
+    margin: 15px;
+}
+
+header .slogan {
+    color: rgba(244,67,69,1);
+    line-height: 30px;
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: normal;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+header .slogan p {
+    text-transform: uppercase;
+}
+
+
+header .navigation {
+    height: 60px;
+    background-color: rgb(244, 67, 69);
+}
+
+header .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .contacts {
+    color: rgba(244,67,69,1)
+}
+
+header .navigation ul li {
+    display: inline;
+    float: left;
+}
+
+header .navigation ul a {
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 60px;
+    font-size: 12px;
+}
+
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    header .navigation ul a {
+        font-size: 14px;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 1025px) {
+    header .navigation ul a {
+        font-size: 16px;
+    }
+}

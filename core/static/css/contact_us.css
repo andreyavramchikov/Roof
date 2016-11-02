@@ -1,0 +1,56 @@
+#contact-us {
+    color: rgba(85,108,176,1);
+    padding: 35px 0;
+}
+
+#contact-us .contact-info {
+    /*padding: 0 0 2% 10%;*/
+    padding-left: 5%;
+}
+
+#contact-us .contact-info h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+#contact-us form {
+    padding-right: 5%;
+}
+
+#contact-us form input {
+    /*color: rgba(85,108,176,1);*/
+    height: 40px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgba(85,108,176,1);
+    width: 100%;
+    outline: none;
+}
+
+.contact-us form input[name='message'] {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.contact-us form input[name='name']{
+    width: 45%;
+    float: left;
+}
+
+.contact-us form input[name='email'] {
+    width: 45%;
+    float: right;
+}
+
+.contact-us form input[type='submit'] {
+    background-color: rgb(85, 108, 176);;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+}
+
+

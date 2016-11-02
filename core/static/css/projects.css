@@ -1,0 +1,55 @@
+
+#projects {
+    margin:0; padding:0;
+}
+
+#projects .blue {
+    padding:0;
+    margin: 0;
+    height: 250px;
+    color: white;
+    background-color: rgb(85, 108, 176);
+}
+
+#projects .white {
+    height: 250px;
+    margin: 0;
+    padding:0;
+    color: rgb(85, 108, 176);
+}
+
+#projects .inline-projects  {
+    width: 90%;
+    /* padding: 2% 10%; */
+    margin: 5% 5%;
+}
+
+#projects .inline-projects img {
+    background-size: auto;
+    width: 100%;
+}
+
+#projects .inline-projects div {
+    text-align: center;
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #projects .blue {
+        height: 300px;
+    }
+    #projects .white {
+        height: 300px;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 1025px) {
+    #projects .blue {
+        height: 450px;
+    }
+    #projects .white {
+        height: 450px;
+    }
+}

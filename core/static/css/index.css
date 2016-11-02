@@ -1,0 +1,109 @@
+#index {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#index .row {
+    margin: 0;
+}
+
+#index img.home-roof {
+    background-size: auto;
+    width: 100%;
+    position: relative;
+}
+
+#index .welcome {
+    text-align: center;
+    padding: 0 10%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#index .welcome button {
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    color: rgb(85, 108, 176);
+    border: none;
+    background-color: white;
+}
+
+#index .what-we-do {
+    height: 600px;
+    background-color: white;
+}
+
+#index .what-we-do div p {
+    height: 200px;
+    line-height: 200px;
+    color: rgb(85, 108, 176);
+    font-size: 48px;
+    text-align: center;
+}
+
+#index .examples {
+    padding: 20px 5%;
+    color: rgb(85, 108, 176);
+    text-align: center;
+    font-size: 20px;
+}
+
+#index .examples img {
+    background-size: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#index .what-we-use {
+    position: relative;
+    height: 600px;
+    background-color: rgb(85, 108, 176);
+    text-align: center;
+}
+
+#index .what-we-use .row p {
+    font-size: 60px;
+    height: 200px;
+    line-height: 200px;
+}
+
+#index .what-we-use .examples {
+    height: 400px;
+    padding: 20px 5%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#index .what-we-use .examples img {
+    background-size: auto;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #index .welcome p:first-child {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 1025px) {
+    #index .welcome p:first-child {
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 95px;
+    }
+}

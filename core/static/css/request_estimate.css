@@ -1,0 +1,37 @@
+#request-estimate {
+    padding: 20px 25%;
+}
+
+#request-estimate form {
+    padding: 0 20px;
+}
+
+#request-estimate form p {
+    text-align: center;
+    color: rgb(85, 108, 176);
+}
+
+#request-estimate form textarea {
+    height: 100px;
+}
+
+#request-estimate form input[type='submit'] {
+    background-color: rgb(85, 108, 176);;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+}
+
+#request-estimate form input, #request-estimate form textarea {
+    color: rgba(85, 108, 176, 1);
+    height: 40px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid rgba(85, 108, 176, 1);
+    width: 100%;
+    outline: none;
+}
