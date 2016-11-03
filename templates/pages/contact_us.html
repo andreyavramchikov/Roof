@@ -13,13 +13,14 @@
             solutioncontractor3@gmail.com  <br>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 contact-form right">
-            <form name="contactForm" class="base-font">
-                <input name="name" placeholder="Name"/>
-                <input name="email" placeholder="Email"/>
-                <input name="subject" placeholder="Subject" />
-                <input name="phone" placeholder="Phone"/>
-                <input name="address" placeholder="Address"/>
-                <input name="message" placeholder="Message" />
+            <form name="contactForm" class="base-font" method="post">
+                {% csrf_token %}
+                {{ form.subject }}
+                {{ form.name }}
+                {{ form.phone }}
+                {{ form.email }}
+                {{ form.address }}
+                {{ form.message }}
                 <input type="submit" name="submit" value="Send" />
             </form>
         </div>

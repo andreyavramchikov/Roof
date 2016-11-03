@@ -15,3 +15,7 @@ footer .contacts {
 footer .createdby {
     height: 40px;
 }
+
+footer p {
+    color: white;
+}

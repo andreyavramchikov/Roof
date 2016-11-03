@@ -1,0 +1,8 @@
+Contact US request
+
+The probably customer send you Michael the contact us request form
+with information about himself:
+phone - {{ data.phone }}
+email - {{ data.email }}
+address - {{data.address}}
+message - {{ data.message }}

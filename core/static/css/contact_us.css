@@ -17,7 +17,7 @@
     padding-right: 5%;
 }
 
-#contact-us form input {
+#contact-us form input, #contact-us form textarea {
     /*color: rgba(85,108,176,1);*/
     height: 40px;
     margin: 10px 0;
@@ -27,7 +27,7 @@
     outline: none;
 }
 
-.contact-us form input[name='message'] {
+.contact-us form textarea[name='message'] {
     border: none;
     margin-bottom: 40px;
 }

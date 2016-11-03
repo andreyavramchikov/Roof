@@ -11,9 +11,9 @@ header div {
 }
 
 header img {
-    height: 90px;
+    height: 70px;
     padding: 10px;
-    margin: 15px;
+    margin: 15px 0;
 }
 
 header .slogan {
@@ -50,6 +50,10 @@ header .contacts {
     color: rgba(244,67,69,1)
 }
 
+header .contacts p {
+    color: rgba(244,67,69,1)
+}
+
 header .navigation ul li {
     display: inline;
     float: left;
@@ -58,23 +62,47 @@ header .navigation ul li {
 header .navigation ul a {
     color: white;
     display: block;
-    padding: 0 10px;
+    padding: 0 5px;
     line-height: 60px;
-    font-size: 12px;
+    font-size: 9px;
 }
 
 
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    header img {
+        height: 90px;
+        padding: 10px;
+        margin: 15px;
+    }
     header .navigation ul a {
         font-size: 14px;
+        padding: 0 10px;
+    }
+
+
+    header .navigation .ul-wrap {
+        padding-left: 8%;
     }
 }
 
 
 /*Desktop*/
 @media (min-width: 1025px) {
+
+    header img {
+        height: 90px;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    header .navigation .ul-wrap {
+        padding-left: 8%;
+    }
+
     header .navigation ul a {
         font-size: 16px;
+        padding: 0 10px;
     }
 }

@@ -3,6 +3,10 @@ p, h1, h2, h3, h4, h5, h6 {
     padding:0;
 }
 
+p {
+    font-size: 13px;
+}
+
 .left {
     float: left;
 }
@@ -64,6 +68,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 
+/*not working in Safari*/
 .vertically-align-div-with-text-inside-div {
     position: relative;
     top: 50%;
@@ -100,12 +105,20 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
         font-size: 15px;
     }
 
+    p {
+        font-size: 16px;
+    }
+
 }
 
 /*DESKTOP*/
 @media only screen and (min-width: 1025px) {
     .lg-hide {
         display: none !important;
+    }
+
+    p {
+        font-size: 16px;
     }
 
     .xxl-text {
