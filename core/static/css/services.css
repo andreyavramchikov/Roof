@@ -28,7 +28,7 @@
 
 #services .red-block {
     background-color: rgba(244,67,69,1);
-    height: 200px;
+    height: 100px;
     color: white;
     margin: 20px 0;
     font-size: 25px;
@@ -54,6 +54,10 @@
         height: 200px;
         width: auto;
     }
+
+    #services .red-block {
+        height: 200px;
+    }
 }
 
 
@@ -62,5 +66,8 @@
     #services .type-of-services img {
         height: 300px;
         width: auto;
+    }
+    #services .red-block {
+        height: 200px;
     }
 }

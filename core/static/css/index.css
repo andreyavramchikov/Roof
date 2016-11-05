@@ -74,9 +74,9 @@
 }
 
 #index .what-we-use .row p:first-child {
-    font-size: 60px;
-    height: 100px;
-    line-height: 100px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
     color: white;
 }
 
@@ -117,11 +117,19 @@
 
     #index .what-we-use .row p:first-child {
         height:200px;
+        font-size: 60px;
+
+    line-height: 100px;
     }
 
     #index .what-we-use .examples {
         height: 400px;
     }
+
+    #index .what-we-do .examples p {
+        font-size: 22px;
+    }
+
 
     #index .welcome p:first-child {
         font-size: 50px;
@@ -155,10 +163,18 @@
 
     #index .what-we-use .row p:first-child {
         height:200px;
+        font-size: 60px;
+
+    line-height: 100px;
     }
 
     #index .what-we-use .examples {
+
         height: 400px;
+    }
+
+    #index .what-we-do .examples p {
+        font-size: 22px;
     }
 
     #index .welcome p:first-child {
