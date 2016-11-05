@@ -1,10 +1,12 @@
 # Create your views here.
 from django.views.generic.base import TemplateView
+from django.views.generic.detail import DetailView
 from django.views.generic.edit import FormView
 from django.core.urlresolvers import reverse_lazy
 
 
 from core.form import RequestEstimateForm, ContactUsForm
+from core.models import Project
 from core.utils import send_email_to_michael, ESTIMATE, CONTACT
 
 
@@ -22,6 +24,13 @@ class ServicesView(TemplateView):
 
 class ProjectsView(TemplateView):
     template_name = 'pages/projects.html'
+
+
+class ProjectView(DetailView):
+    model = Project
+    template_name = 'pages/project.html'
+    context_object_name = 'project'
+
 
 
 class ContactUsView(FormView):

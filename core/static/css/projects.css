@@ -7,8 +7,12 @@
     padding:0;
     margin: 0;
     height: 250px;
-    color: white;
+    color: white !important;
     background-color: rgb(85, 108, 176);
+}
+
+#projects .blue p {
+    color: white !important;
 }
 
 #projects .white {
