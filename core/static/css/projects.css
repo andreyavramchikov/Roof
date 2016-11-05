@@ -6,7 +6,7 @@
 #projects .blue {
     padding:0;
     margin: 0;
-    height: 250px;
+    height: 150px;
     color: white !important;
     background-color: rgb(85, 108, 176);
 }
@@ -16,7 +16,7 @@
 }
 
 #projects .white {
-    height: 250px;
+    height: 150px;
     margin: 0;
     padding:0;
     color: rgb(85, 108, 176);

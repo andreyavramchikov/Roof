@@ -20,7 +20,8 @@
 
 #services .type-of-services img {
     background-size: auto;
-    height: 150px;
+    width: 100%;
+    /*height: 150px;*/
     display: block;
     margin: 0 auto;
 }
@@ -51,6 +52,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     #services .type-of-services img {
         height: 200px;
+        width: auto;
     }
 }
 
@@ -59,5 +61,6 @@
 @media (min-width: 1025px) {
     #services .type-of-services img {
         height: 300px;
+        width: auto;
     }
 }

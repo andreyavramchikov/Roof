@@ -1,5 +1,5 @@
 #request-estimate {
-    padding: 20px 25%;
+    padding: 20px 5%;
 }
 
 #request-estimate form {
@@ -35,3 +35,19 @@
     width: 100%;
     outline: none;
 }
+
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #request-estimate {
+        padding: 20px 25%;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1025px) {
+    #request-estimate {
+        padding: 20px 25%;
+    }
+}
+

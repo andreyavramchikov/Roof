@@ -2,18 +2,18 @@
 
 {% block main %}
     <div id="contact-us" class="container-fluid contact-us base-font">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 contact-info">
-            <h1>Contact</h1>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-info">
             Thinking about taking that next big step to fulfill your <br>
             remodeling needs? Get in touch today and allow <br>
             licensed experts to get the job done the right way.
             <br> <br>
-            214 Foxboro drive <br> <br>
+            131A Union Street <br> <br>
             (856) 725 7646 <br> <br>
             solutioncontractor3@gmail.com  <br>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 contact-form right">
+        <div class="col-xs-12 col-12-6 col-md-6 col-lg-6 contact-form right">
             <form name="contactForm" class="base-font" method="post">
+                <h1>Contact Us Form</h1>
                 {% csrf_token %}
                 {{ form.subject }}
                 {{ form.name }}
