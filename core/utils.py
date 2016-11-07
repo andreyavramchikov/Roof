@@ -18,7 +18,7 @@ def send_email_to_michael(data, email_type):
     send_mail(
         title,
         msg_plain,
-        'aldrson@gmail.com',
-        ['aldrson@gmail.com'],
+        'solutioncontractor3@gmail.com',
+        ['solutioncontractor3@gmail.com'],
         html_message=msg_html,
     )
