@@ -71,9 +71,6 @@ header .navigation ul a {
     font-size: 9px;
 }
 
-header .navigation ul a:active {
-    color: blue;
-}
 
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1024px) {
