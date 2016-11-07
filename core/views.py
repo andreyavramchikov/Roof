@@ -32,7 +32,6 @@ class ProjectView(DetailView):
     context_object_name = 'project'
 
 
-
 class ContactUsView(FormView):
     form_class = ContactUsForm
     success_url = reverse_lazy('home')

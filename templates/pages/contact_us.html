@@ -18,11 +18,17 @@
                 <h2>Contact Us Form</h2>
                 {% csrf_token %}
                 {{ form.subject }}
+                {{ form.subject.errors }}
                 {{ form.name }}
+                {{ form.name.errors }}
                 {{ form.phone }}
+                {{ form.phone.errors }}
                 {{ form.email }}
+                {{ form.email.errors }}
                 {{ form.address }}
+                {{ form.address.errors }}
                 {{ form.message }}
+                {{ form.message.errors }}
                 <input type="submit" name="submit" value="Send" />
             </form>
         </div>

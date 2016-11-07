@@ -7,9 +7,13 @@
             {% csrf_token %}
             <p class="l-text">Request Free Estimate</p>
             {{ form.phone }}
+            {{ form.phone.errors }}
             {{ form.email }}
+            {{ form.email.errors }}
             {{ form.address }}
+            {{ form.address.errors }}
             {{ form.message }}
+            {{ form.message.errors }}
             <input type="submit" name="submit" value="Send request for free estimate" />
         </form>
     </div>
