@@ -39,11 +39,6 @@ header .slogan {
     word-wrap: break-word;
 }
 
-header .slogan p {
-    text-transform: uppercase;
-}
-
-
 header .navigation {
     height: 60px;
     background-color: rgb(244, 67, 69);

@@ -11,9 +11,9 @@
                     SOLUTION
                     CONTRACTOR INC
                 </p>
-                <p>Looking for a licensed contractor to tackle a large-scale
-                    remodeling project? Or do you have a small
-                    task you need help with? Solution Contractor Inc is one of the best Roofing Contractors New Jersey.
+                <p>
+                    Looking for a licensed contractor to construct a new roof? Or you would like to replace an old one?
+                    Solution Contractor Inc is one of the best Roofing Contractors in New Jersey.
                 </p>
                 <a href="{% url 'request_estimate' %}">
                     <button> Request Estimate</button>
@@ -36,7 +36,7 @@
                 <a href="{% url 'services' %}#roof-constraction">
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <img src="{% static 'img/new_roof_circle.jpg' %}"/>
-                        <p>New roof constraction</p>
+                        <p>New roof construction</p>
                     </div>
                 </a>
                 <a href="{% url 'services' %}#roof-leak">
@@ -54,23 +54,24 @@
             </div>
         </div>
 
-        <div class="row what-we-use border base-font">
+        <div class="row what-we-use base-font">
             <div class="row">
                 <p>WHAT WE USE</p>
             </div>
             <div class="row examples">
-                <a href="{% url 'services' %}#shinglets">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <img src="{% static 'img/shinglets.jpg' %}"/>
-                        <p>SHINGLES</p>
-                    </div>
-                </a>
-                <a href="{% url 'services' %}#metal">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <img src="{% static 'img/metal_roofing.jpg' %}"/>
-                        <p>METAL ROOFING</p>
-                    </div>
-                </a>
+                <div class="row">
+                    <a href="{% url 'services' %}#shinglets">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <img src="{% static 'img/shinglets.jpg' %}"/>
+                            <p>SHINGLES</p>
+                        </div>
+                    </a>
+                    <a href="{% url 'services' %}#metal">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <img src="{% static 'img/metal_roofing.jpg' %}"/>
+                            <p>METAL ROOFING</p>
+                        </div>
+                    </a>
                     <a href="{% url 'services' %}#cedar">
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                             <img src="{% static 'img/cedar_shakes.jpg' %}"/>
@@ -79,10 +80,38 @@
                     </a>
                     <a href="{% url 'services' %}#slate">
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                            <img src="{% static 'img/slate.jpg' %}" class="right"/>
+                            <img src="{% static 'img/slate.jpg' %}"/>
                             <p>SLATE</p>
                         </div>
                     </a>
+                </div>
+                <div class="row">
+                    <a href="{% url 'services' %}#tpo">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <img src="{% static 'img/TPO.png' %}"/>
+                            <p>TPO</p>
+                        </div>
+                    </a>
+                    <a href="{% url 'services' %}#epdm">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <img src="{% static 'img/EPDM.jpg' %}"/>
+                            <p>EPDM</p>
+                        </div>
+                    </a>
+                    <a href="{% url 'services' %}#rubber">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <img src="{% static 'img/RubberTorchDown.jpg' %}"/>
+                            <p>RUBBER TORCH DOWN</p>
+                        </div>
+                    </a>
+                    <a href="{% url 'services' %}#tile">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <img src="{% static 'img/Tile.jpg' %}"/>
+                            <p>Tile</p>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </div>
 

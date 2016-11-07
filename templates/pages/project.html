@@ -1,18 +1,21 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block main %}
-    <ul class="bxslider">
-    {% if project.pk == 1 %}
-        <li><img src="{% static 'img/projects/1/test.jpg' %}" /></li>
-        <li><img src="{% static 'img/projects/1/test2.jpg' %}" /></li>
-        <li><img src="{% static 'img/projects/1/test.jpg' %}" /></li>
-        <li><img src="{% static 'img/projects/1/test2.jpg' %}" /></li>
-    {% endif %}
-    {% if project.pk == 2 %}
-        <li><img src="{% static 'img/projects/2/test.jpg' %}" /></li>
-        <li><img src="{% static 'img/projects/2/test2.jpg' %}" /></li>
-        <li><img src="{% static 'img/projects/2/test.jpg' %}" /></li>
-        <li><img src="{% static 'img/projects/2/test2.jpg' %}" /></li>
-    {% endif %}
-    </ul>
+    <div style="width: 80%; margin: auto;">
+        <ul class="bxslider">
+        {% if project.pk == 1 %}
+            <li><img src="{% static 'img/projects/1/test.jpg' %}" /></li>
+            <li><img src="{% static 'img/projects/1/test2.jpg' %}" /></li>
+            <li><img src="{% static 'img/projects/1/test3.jpg' %}" /></li>
+            <li><img src="{% static 'img/projects/1/test2.jpg' %}" /></li>
+        {% endif %}
+        {% if project.pk == 2 %}
+            <li><img src="{% static 'img/projects/2/test.jpg' %}" /></li>
+            <li><img src="{% static 'img/projects/2/test2.jpg' %}" /></li>
+            <li><img src="{% static 'img/projects/2/test3.jpg' %}" /></li>
+            <li><img src="{% static 'img/projects/2/test2.jpg' %}" /></li>
+        {% endif %}
+        </ul>
+    </div>
+
 {% endblock %}

@@ -3,17 +3,19 @@
 {% block main %}
     <div id="contact-us" class="container-fluid contact-us base-font">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-info">
-            Thinking about taking that next big step to fulfill your <br>
-            remodeling needs? Get in touch today and allow <br>
-            licensed experts to get the job done the right way.
+            Please feel free to contact Solution Contractor Inc<br>
+            by phone, by email or using our contact form <br>
+            with any questions, comments or concerns.<br>
+            We look forward to hearing from you.
             <br> <br>
-            131A Union Street <br> <br>
-            (856) 725 7646 <br> <br>
+            <b>131A Union Street, Glassboro</b> <br>
+            <b>New Jersey, 08028</b><br><br>
+            <b>(856) 725 7646</b> <br> <br>
             solutioncontractor3@gmail.com  <br>
         </div>
         <div class="col-xs-12 col-12-6 col-md-6 col-lg-6 contact-form right">
             <form name="contactForm" class="base-font" method="post">
-                <h1>Contact Us Form</h1>
+                <h2>Contact Us Form</h2>
                 {% csrf_token %}
                 {{ form.subject }}
                 {{ form.name }}
